@@ -1,0 +1,82 @@
+.contenedor {
+     
+    }
+
+.encabezado {
+
+    text-align: center;
+    }
+
+.titulo {
+    padding: 1em;
+    }
+
+.nav {
+    display: flex;
+    border: 2px solid;
+    padding-left: 0;
+    justify-content: center;
+    }
+
+.item {
+    font-size: x-large;
+    list-style: none;
+    align-items: stretch;
+    color:black
+    text-transform: uppercase;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 1px white;
+    -webkit-text-stroke: 0.1px white;
+    
+    }
+
+li:hover {
+    
+    }
+
+.bloqueprincipal {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+
+.empresa {
+    padding: 1em;
+    width: 28%;
+    color: black;
+    text-align: center;
+    text-shadow: 1px 1px 1px white;
+    -webkit-text-stroke: 0.1px white;
+    }
+
+  
+.modelos {
+    padding: 1em;
+    width: 28%;
+    color: black;
+    text-align: center;
+    text-shadow: 1px 1px 1px white;
+    -webkit-text-stroke: 0.1px white;
+    }
+  
+.contacto {
+    padding: 1em;
+    width: 28%;
+    color: black;
+    text-align: center;
+    text-shadow: 1px 1px 1px white;
+    -webkit-text-stroke: 0.1px white;
+    }
+  
+.piedepagina {
+    
+    }
+
+.media {
+    display: flex;
+    padding-left: 1em;
+    justify-content:center;
+    }
+  
