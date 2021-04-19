@@ -1,9 +1,4 @@
-.contenedor {
-     
-    }
-
 .encabezado {
-
     text-align: center;
     }
 
@@ -61,6 +56,15 @@ li:hover {
     -webkit-text-stroke: 0.1px white;
     }
   
+    .modelos2 {
+        padding: 1em;
+        width: 100%;
+        color: black;
+        text-align: center;
+        text-shadow: 1px 1px 1px white;
+        -webkit-text-stroke: 0.1px white;
+        }
+
 .contacto {
     padding: 1em;
     width: 28%;
@@ -69,14 +73,30 @@ li:hover {
     text-shadow: 1px 1px 1px white;
     -webkit-text-stroke: 0.1px white;
     }
-  
-.piedepagina {
-    
-    }
 
 .media {
     display: flex;
     padding-left: 1em;
     justify-content:center;
     }
-  
+
+    thead {
+    
+        background-color: blueviolet;
+    }
+
+    table, td, tr {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+.tabla {
+    
+
+    text-align: center ; 
+
+}
+.divtabla {
+    display: flex;
+    justify-content: center;
+
+}
