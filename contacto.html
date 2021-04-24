@@ -8,12 +8,58 @@
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body class="contenedor">
-    <style>
-        .contenedor { 
-          background: url(imagenes/portada.jpg);
-          background-size: cover;
-        }
-    </style>
+
+    <form id="formulario">
+        <h1>Complete nuestro formulario para que lo contactemos</h1>
+            <div>
+                <p>Datos del cliente</p>
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" value=""/>
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" value="">
+            </div> 
+            
+            <div>
+                <p>Datos de contacto</p>
+
+                <label for="mail">Mail:</label>
+                <input type="text" name="mail" value="">
+                <label for="celular">Celular</label>
+                <input type="text" name="celular" value="">
+            </div>
+    
+            <div>
+                <label for="sexo">Sexo:</label>
+                <input type="radio" name="sexo" value="Hombre" /> Hombre
+                <input type="radio" name="sexo" value="Mujer" /> Mujer
+            </div>
+
+            <div>
+                <p>¿Cual es tu celular favorito?</p>
+                <input type="checkbox" name="favorito" value="Apple" /> Mi favorito es Apple
+                <input type="checkbox" name="favorito" value="Samsung" /> Mi favorito es Samsung
+                <input type="checkbox" name="favorito" value="Xiaomi" /> Mi favorito es Xiaomi
+                <input type="checkbox" name="favorito" value="Motorola" /> Mi favorito es Motorola
+            </div>
+
+            <div>
+                <p> ¿Tuvo alguno de estos dispositivos? </p>
+          
+                <select>
+                  <option value="Xiaomi">Xiaomi</option>
+                  <option value="Apple">Apple</option>
+                  <option value="Samsung">Samsung</option>
+                  <option value="Motorola">Motorola</option>
+                </select>
+            </div>
+
+            <div>
+                <p>Inserte codigo de descuento</p>
+                <label for="pass">Codigo descuento</label>
+                <input type="password" name="Codigo descuento"> 
+            </div>
+    </form>
 
     <div class="contacto">
         <h1>Contacto</h1>
