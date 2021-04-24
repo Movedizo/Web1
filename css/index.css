@@ -2,6 +2,13 @@
     text-align: center;
     }
 
+    body { 
+      background: url(../imagenes/portada.jpg);
+      background-size: cover;
+      justify-content: center;
+
+    }
+  
 .titulo {
     padding: 1em;
     }
@@ -80,23 +87,28 @@ li:hover {
     justify-content:center;
     }
 
-    thead {
-    
-        background-color: blueviolet;
+    thead { 
+
     }
 
     table, td, tr {
-        border: 1px solid black;
-        border-collapse: collapse;
-    }
-.tabla {
+
+        padding: 1em;
+        width: 100%;
+        color: black;
+        text-align: center;
+        text-shadow: 1px 1px 1px white;
+        -webkit-text-stroke: 0.1px white;
+        border: 3px solid black;
+        -moz-text-size-adjust: 50%;
+       
     
+    }
 
-    text-align: center ; 
+.tablamodelos {
 
-}
-.divtabla {
-    display: flex;
-    justify-content: center;
-
-}
+        
+        min-width: 500px;
+        min-height: 200px;
+    
+    }
