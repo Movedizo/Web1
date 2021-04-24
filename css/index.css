@@ -4,7 +4,7 @@
 
 .titulo {
     padding: 1em;
-    }
+}
 
 .nav {
     display: flex;
@@ -13,31 +13,32 @@
     justify-content: center;
     }
 
-.item {
+.item{
     font-size: x-large;
     list-style: none;
     align-items: stretch;
-    color:black
+    color:black;
     text-transform: uppercase;
     padding: 20px;
     text-align: center;
     text-shadow: 1px 1px 1px white;
     -webkit-text-stroke: 0.1px white;
-    
     }
 
-li:hover {
+li:hover{
+    background-color: aqua;
     
-    }
+    
+}
 
-.bloqueprincipal {
+.bloqueprincipal{
     display: flex;
     align-items: stretch;
     flex-wrap: wrap;
     justify-content: space-between;
     }
 
-.empresa {
+.empresa{
     padding: 1em;
     width: 28%;
     color: black;
@@ -47,7 +48,7 @@ li:hover {
     }
 
   
-.modelos {
+.modelos{
     padding: 1em;
     width: 28%;
     color: black;
@@ -56,16 +57,16 @@ li:hover {
     -webkit-text-stroke: 0.1px white;
     }
   
-    .modelos2 {
-        padding: 1em;
-        width: 100%;
-        color: black;
-        text-align: center;
-        text-shadow: 1px 1px 1px white;
-        -webkit-text-stroke: 0.1px white;
-        }
+.modelos2{
+    padding: 1em;
+    width: 100%;
+    color: black;
+    text-align: center;
+    text-shadow: 1px 1px 1px white;
+    -webkit-text-stroke: 0.1px white;
+    }
 
-.contacto {
+.contacto{
     padding: 1em;
     width: 28%;
     color: black;
@@ -74,29 +75,25 @@ li:hover {
     -webkit-text-stroke: 0.1px white;
     }
 
-.media {
+.media{
     display: flex;
     padding-left: 1em;
     justify-content:center;
     }
 
-    thead {
-    
-        background-color: blueviolet;
+thead{
+    background-color: blueviolet;
     }
 
-    table, td, tr {
-        border: 1px solid black;
-        border-collapse: collapse;
+table, td, tr{
+    width: 500px;
+    border: 1px solid black;
+    border-collapse: collapse;
     }
-.tabla {
-    
-
-    text-align: center ; 
-
+.tabla{
+    text-align: center; 
 }
-.divtabla {
+.divtabla{
     display: flex;
     justify-content: center;
-
 }
