@@ -1,0 +1,109 @@
+.encabezado {
+    text-align: center;
+    }
+
+    body { 
+      background: url(../imagenes/portada.jpg);
+      background-size: cover;
+      justify-content: center;
+
+    }
+  
+.titulo {
+    padding: 1em;
+    }
+
+.nav {
+    display: flex;
+    border: 2px solid;
+    padding-left: 0;
+    justify-content: center;
+    }
+
+.item {
+    font-size: x-large;
+    list-style: none;
+    align-items: stretch;
+    color:black
+    padding: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 1px white;
+    -webkit-text-stroke: 0.1px white;
+    
+    }
+
+li:hover {
+    
+    }
+
+.bloqueprincipal {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+
+.empresa {
+    padding: 1em;
+    width: 28%;
+    color: black;
+    text-align: center;
+    text-shadow: 1px 1px 1px white;
+    -webkit-text-stroke: 0.1px white;
+    }
+
+  
+.modelos {
+    padding: 1em;
+    width: 28%;
+    color: black;
+    text-align: center;
+    text-shadow: 1px 1px 1px white;
+    -webkit-text-stroke: 0.1px white;
+    }
+  
+    .modelos2 {
+        padding: 1em;
+        width: 100%;
+        color: black;
+        text-align: center;
+        text-shadow: 1px 1px 1px white;
+        -webkit-text-stroke: 0.1px white;
+        }
+
+.contacto {
+    padding: 1em;
+    width: 28%;
+    color: black;
+    text-align: center;
+    text-shadow: 1px 1px 1px white;
+    -webkit-text-stroke: 0.1px white;
+    }
+
+.media {
+    display: flex;
+    padding-left: 1em;
+    justify-content:center;
+    }
+
+    thead{
+       
+    }
+
+
+    table, td, tr, thead{
+
+        padding: 1em;
+        color: black;
+        text-align: center;
+        text-shadow: 1px 1px 1px white;
+        -webkit-text-stroke: 0.1px white;
+        border: 3px solid black;
+       
+       
+    }
+
+.tablamodelos {
+
+        
+    }
