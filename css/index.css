@@ -88,31 +88,28 @@ li:hover{
     justify-content:center;
     }
 
-
-thead {
-
+thead{
+    background-color: cyan;
     }
 
 table, td, tr {
 
-        padding: 1em;
-        width: 100%;
-        color: black;
+        border: 1px solid black;
         text-align: center;
-        text-shadow: 1px 1px 1px white;
-        -webkit-text-stroke: 0.1px white;
-        border: 3px solid black;
-        -moz-text-size-adjust: 50%;
-       
     
     }
 
 .tablamodelos {
-
-        
-        min-width: 500px;
-        min-height: 200px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     
     }
+
+#formulario{
+        text-align: center;
+    }
+
+
 
     
