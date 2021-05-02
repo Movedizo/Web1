@@ -1,11 +1,17 @@
 .encabezado {
     text-align: center;
     }
+h2{
+    color: rgb(159, 122, 194);
+}
+label{
+    color: rgb(102, 102, 102);
+}
 
-    body { 
-      background: url(../imagenes/portada.jpg);
-      background-size: cover;
-      justify-content: center;
+body { 
+    background: url(../imagenes/portada.jpg);
+    background-size: cover;
+    justify-content: center;
 
     }
   
